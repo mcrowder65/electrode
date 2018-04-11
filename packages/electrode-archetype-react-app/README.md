@@ -58,7 +58,7 @@ In the [src/lib mode](#srclib-mode), you put your `client` and `server` code und
 > Note: If you opt-in to use the src/lib mode, then this is not applicable.  See [here](#srclib-babelrc) for more details.
 
 If you are using babel-register mode, then you need to add a `.babelrc` in your app's top level directory to extend
-[the archetype's babel configuration](config/babel/.babelrc) in order to apply the presets (ES2015, React) and the plugins like i18n. If your project needs additional Babel settings (like using stage 0 features) you can add them to this file. See the [Babel docs](https://babeljs.io/docs/usage/babelrc/) for more information.
+[the archetype's babel configuration](https://github.com/electrode-io/electrode/blob/master/packages/electrode-archetype-react-app/config/babel/.babelrc) in order to apply the presets (ES2015, React) and the plugins like i18n. If your project needs additional Babel settings (like using stage 0 features) you can add them to this file. See the [Babel docs](https://babeljs.io/docs/usage/babelrc/) for more information.
 
 ```json
 {
